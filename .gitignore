@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# ChromaDB (generated, large binary files — rebuild with preload_knowledge.py)
+chroma_db/
+
+# HuggingFace & dataset caches
+knowledge_base/datasets/
+.cache/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
